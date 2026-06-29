@@ -38,20 +38,33 @@ header p{
 }
 
 .card{
-    background:rgba(255,255,255,.18);
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
-border:1px solid rgba(255,255,255,.25);
-    color:#fff;
-    border-radius:18px;
-    padding:18px 20px;
+    background:#ffffff;
+    border-radius:22px;
+    padding:18px 22px;
+    margin-bottom:18px;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-bottom:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
     cursor:pointer;
     transition:.3s;
-    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.card div:first-child{
+    color:#222;
+    font-size:24px;
+    font-weight:700;
+}
+
+.card div:last-child{
+    font-size:20px;
 }
 
 .card:hover{
