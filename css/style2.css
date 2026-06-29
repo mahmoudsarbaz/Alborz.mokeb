@@ -178,3 +178,37 @@ background-size:180px 180px;
 z-index:-1;
 
 }
+/* ===== فوتر ===== */
+
+.footer{
+    max-width:850px;
+    margin:40px auto 20px;
+    text-align:center;
+}
+
+.footer-box{
+    background:#ffffff;
+    border-radius:20px;
+    padding:22px;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+    border-top:4px solid #d4af37;
+}
+
+.footer-title{
+    color:#0b6b3a;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.footer-box p{
+    color:#555;
+    line-height:2;
+}
+
+.footer-copy{
+    margin-top:18px;
+    color:#ffffff;
+    font-size:14px;
+    opacity:.9;
+}
