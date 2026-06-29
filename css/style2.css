@@ -146,6 +146,8 @@ body{
     font-weight:700;
     cursor:pointer;
     transition:.25s;
+    box-shadow:0 5px 15px rgba(25,135,84,.35);
+letter-spacing:.3px;
 }
 
 .btn:hover{
