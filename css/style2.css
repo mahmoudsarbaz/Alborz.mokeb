@@ -149,3 +149,30 @@ body{
 .btn:hover{
     background:#146c43;
 }
+/* ===== نقش اسلیمی ===== */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+inset:0;
+
+pointer-events:none;
+
+opacity:.05;
+
+background-image:
+
+radial-gradient(circle at 20% 20%,#ffffff 2px,transparent 2px),
+
+radial-gradient(circle at 80% 30%,#ffffff 2px,transparent 2px),
+
+radial-gradient(circle at 40% 80%,#ffffff 2px,transparent 2px);
+
+background-size:180px 180px;
+
+z-index:-1;
+
+}
