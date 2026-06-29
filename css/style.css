@@ -66,3 +66,19 @@ border:1px solid rgba(255,255,255,.25);
 .card div:last-child{
     font-size:26px;
 }
+.btn{
+    background:#ffffff;
+    color:#0b6b3a;
+    border:none;
+    border-radius:12px;
+    padding:8px 16px;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#dff7e7;
+    transform:scale(1.05);
+}
