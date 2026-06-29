@@ -84,3 +84,68 @@ body{
     max-width:850px;
     margin:30px auto;
 }
+/* ===== کارت‌ها ===== */
+
+.card{
+    background:#ffffff;
+    border-radius:22px;
+    padding:18px 22px;
+    margin-bottom:18px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.10);
+    transition:.25s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 14px 30px rgba(0,0,0,.16);
+}
+
+.card-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.icon{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:#eaf7ee;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+.text h3{
+    color:#1b1b1b;
+    font-size:20px;
+    margin-bottom:4px;
+}
+
+.text p{
+    color:#666;
+    font-size:14px;
+}
+
+.btn{
+    background:#198754;
+    color:#fff;
+    border:none;
+    border-radius:30px;
+    padding:12px 22px;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.btn:hover{
+    background:#146c43;
+}
