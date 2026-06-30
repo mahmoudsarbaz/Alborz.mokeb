@@ -129,3 +129,25 @@ header p{
 .card div:last-child{
     font-size:26px;
 }
+/* ===== آیکون بالای هدر ===== */
+
+.location-icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.location-icon img{
+    width:110px;
+    height:110px;
+    object-fit:contain;
+
+    filter:drop-shadow(0 8px 18px rgba(0,0,0,.20));
+
+    transition:.3s;
+}
+
+.location-icon img:hover{
+    transform:scale(1.05);
+}
