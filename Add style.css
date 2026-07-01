@@ -131,26 +131,3 @@ header p{
 }
 /* ===== آیکون بالای هدر ===== */
 
-.location-icon{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:20px;
-}
-
-.location-icon img{
-    width:70px;
-    height:70px;
-    object-fit:contain;
-    display:block;
-    margin:auto;
-
-    filter:drop-shadow(0 8px 18px rgba(0,0,0,.18));
-
-    transition:.3s;
-
-}
-
-.location-icon img:hover{
-    transform:scale(1.05);
-}
